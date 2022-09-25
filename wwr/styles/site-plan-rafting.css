@@ -15,11 +15,11 @@ Fonts are separated by a & */
   --paragraph-font: Public+Sans,Work+Sans,Noto+Sans;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #553939;  /* headlines on a white background */ 
-  --headline-color-on-color: #704f4f; /* headlines on a colored background */ 
+  --headline-color-on-white: #704f4f;  /* headlines on a white background */ 
+  --headline-color-on-color: #472d2d; /* headlines on a colored background */ 
   --paragraph-color-on-white: #472d2d; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #a77979; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #704f4f;
+  --paragraph-color-on-color: #472d2d; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #a77979;
   --nav-link-color: #a77979;
   --nav-background-color: #553939;
   --nav-hover-link-color: #472d2d;
