@@ -162,3 +162,12 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.faster-one {
+  font-family: 'Faster One';
+}
+.oswald {
+  font-family: 'Oswald';
+}
+.public-sans {
+  font-family: 'Public Sans'
+}
