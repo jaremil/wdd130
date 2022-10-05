@@ -1,0 +1,20 @@
+div{
+    max-width: 1600px;
+}
+
+#content{
+    margin: 0 auto;
+}
+
+div.a{
+    text-align: center;
+}
+div.b{
+    text-align: left;
+}
+div.c{
+    text-align: right;
+}
+div.c{
+    text-align: justify;
+}
