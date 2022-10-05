@@ -1,20 +1,53 @@
 div{
     max-width: 1600px;
-}
-
-#content{
     margin: 0 auto;
 }
 
-div.a{
+nav a{
     text-align: center;
 }
-div.b{
-    text-align: left;
+
+#hero-msg h1{
+    text-align: center;
 }
-div.c{
-    text-align: right;
+#hero-msg h4{
+    text-align: center;
 }
-div.c{
-    text-align: justify;
+
+.button-box{
+    text-align: center;
 }
+
+main section{
+    text-align: center;
+}
+
+#background{
+        height: 725px;
+}
+
+body{
+    background-color: white;
+}
+header{
+    background-color: white;
+}
+nav a:hover{
+    background-color: white;
+    color: white
+}
+icon{
+    width: 80px;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+} 
