@@ -52,4 +52,24 @@ footer p a:hover {
     text-decoration: underline;
 } 
 
-/* #704f4f #472d2d #a77979 #553939
+.book{
+    background-color: #472d2d;
+    color: #a77979
+}
+.book:hover{
+    background-color: #a77979;
+    color: #472d2d
+}
+
+.msg{
+    background-color: #a77979;
+    color:white
+}
+
+.home-title{
+    color: #a77979;
+}
+
+h4{
+    color: #704f4f;
+}
