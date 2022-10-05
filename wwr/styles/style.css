@@ -30,18 +30,18 @@ body{
     background-color: white;
 }
 header{
-    background-color: white;
+    background-color: #553939;
 }
 nav a:hover{
-    background-color: white;
-    color: white
+    background-color: #a77979;
+    color: #472d2d
 }
 icon{
     width: 80px;
 }
 nav a {
     text-align: center;
-    color: white;
+    color: #a77979;
     text-decoration: none;
 }
 footer p{
@@ -51,3 +51,5 @@ footer p{
 footer p a:hover {
     text-decoration: underline;
 } 
+
+/* #704f4f #472d2d #a77979 #553939
