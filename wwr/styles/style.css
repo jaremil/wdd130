@@ -7,6 +7,11 @@ nav a{
     text-align: center;
 }
 
+nav a:hover{
+    background-color: #a77979;
+    color: #472d2d
+}
+
 #hero-msg h1{
     text-align: center;
 }
@@ -24,6 +29,7 @@ main section{
 
 #background{
         height: 725px;
+        background-color: #a77979;
 }
 
 body{
@@ -32,11 +38,8 @@ body{
 header{
     background-color: #553939;
 }
-nav a:hover{
-    background-color: #a77979;
-    color: #472d2d
-}
-icon{
+
+.icon{
     width: 80px;
 }
 nav a {
@@ -72,4 +75,8 @@ footer p a:hover {
 
 h4{
     color: #704f4f;
+}
+
+.logo{
+    width: 85px;
 }
