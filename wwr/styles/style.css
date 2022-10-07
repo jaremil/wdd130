@@ -65,8 +65,8 @@ footer p a:hover {
 }
 
 .msg{
-    background-color: #a77979;
-    color:white
+    background-color: #472d2d;
+    color: #a77979
 }
 
 .home-title{
@@ -79,4 +79,39 @@ h4{
 
 .logo{
     width: 85px;
+}
+
+hero-img{
+    text-align: center;
+}
+
+.join{
+    text-decoration: none;
+    color: #a77979;
+}
+.join:hover {
+    background-color: #704f4f;
+    color: #a77979;
+}
+
+footer{
+    text-decoration: none;
+    color: #a77979;
+    background-color: #704f4f;
+}
+
+.site-plan{
+    text-decoration: none;
+    color: #a77979;
+}
+
+.site-plan:hover {
+    color: #472d2d
+}
+.contact{
+    text-decoration: none;
+    color: #a77979;
+}
+.contact:hover{
+    color: #472d2d;
 }
