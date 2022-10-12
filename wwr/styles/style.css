@@ -5,6 +5,7 @@ div{
 
 nav a{
     text-align: center;
+    padding: 25px;
 }
 
 nav a:hover{
@@ -41,11 +42,13 @@ header{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 nav a {
     text-align: center;
     color: #a77979;
     text-decoration: none;
+    
 }
 footer p{
     font-size: 1.2em;
@@ -60,6 +63,7 @@ footer p a:hover {
     color: #a77979;
     font-size: 18px;
     font-family: 'Oswald', 'Public Sans', sans-serif;
+    padding: 15px 30px;
 }
 .book:hover{
     background-color: #a77979;
@@ -70,11 +74,13 @@ footer p a:hover {
     background-color: #472d2d;
     color: #a77979;
     line-height: 1.5em;
+    padding-bottom: 35px;
 }
 
 .msg p{
     font-size: .8em;
     font-family: 'Oswald', 'Public Sans', sans-serif;
+    padding-bottom: 15px;
 }
 
 .home-title{
@@ -91,25 +97,36 @@ h4{
     width: 85px;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 hero-img{
     text-align: center;
 }
 
 .join{
     text-decoration: none;
+    background-color: #704f4f;
     color: #a77979;
     font-size: 18px;
     font-family: 'Oswald', 'Public Sans', sans-serif;
+    padding: 15px 30px;
 }
 .join:hover {
-    background-color: #704f4f;
-    color: #a77979;
+    color: #553939;
+    background-color: #a77979;
 }
 
 footer{
     text-decoration: none;
     color: #a77979;
     background-color: #704f4f;
+    padding: 25px 50px;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 .site-plan{
@@ -129,6 +146,11 @@ footer{
 }
 
 body{
-    margin: auto;
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
+}
+
+h2 {
+    margin: 0;
 }
