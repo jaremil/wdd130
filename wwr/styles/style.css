@@ -57,7 +57,9 @@ footer p a:hover {
 
 .book{
     background-color: #472d2d;
-    color: #a77979
+    color: #a77979;
+    font-size: 18px;
+    font-family: 'Oswald', 'Public Sans', sans-serif;
 }
 .book:hover{
     background-color: #a77979;
@@ -66,11 +68,19 @@ footer p a:hover {
 
 .msg{
     background-color: #472d2d;
-    color: #a77979
+    color: #a77979;
+    line-height: 1.5em;
+}
+
+.msg p{
+    font-size: .8em;
+    font-family: 'Oswald', 'Public Sans', sans-serif;
 }
 
 .home-title{
     color: #a77979;
+    font-family: 'Oswald', 'Public Sans', sans-serif;
+    font-size: 2em;
 }
 
 h4{
@@ -88,6 +98,8 @@ hero-img{
 .join{
     text-decoration: none;
     color: #a77979;
+    font-size: 18px;
+    font-family: 'Oswald', 'Public Sans', sans-serif;
 }
 .join:hover {
     background-color: #704f4f;
@@ -118,4 +130,5 @@ footer{
 
 body{
     margin: auto;
+    font-family: sans-serif;
 }
