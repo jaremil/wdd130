@@ -48,7 +48,7 @@ nav a {
     text-align: center;
     color: #a77979;
     text-decoration: none;
-    
+
 }
 footer p{
     font-size: 1.2em;
@@ -64,6 +64,8 @@ footer p a:hover {
     font-size: 18px;
     font-family: 'Oswald', 'Public Sans', sans-serif;
     padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #a77979;
@@ -87,6 +89,7 @@ footer p a:hover {
     color: #a77979;
     font-family: 'Oswald', 'Public Sans', sans-serif;
     font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -112,6 +115,8 @@ hero-img{
     font-size: 18px;
     font-family: 'Oswald', 'Public Sans', sans-serif;
     padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover {
     color: #553939;
@@ -153,4 +158,28 @@ body{
 
 h2 {
     margin: 0;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+footer{
+    margin-top: 200px;
+}
+
+.card-img {
+    border: 10px soild #a77979;
+}
+
+main section img {
+    boxing-sizing: border-box;
 }
