@@ -177,9 +177,9 @@ footer{
 }
 
 .card-img {
-    border: 10px soild #a77979;
+    border: 10px solid #472d2d;
 }
 
 main section img {
-    boxing-sizing: border-box;
+    box-sizing: border-box;
 }
