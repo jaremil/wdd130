@@ -254,6 +254,47 @@ main section img {
     box-sizing: border-box;
 }
 
+.river-grid{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
+
+.river_title{
+
+}
+
+.arizona_text {
+    margin: 0;
+}
+
+.idaho_text{
+    margin: 0;
+}
+
+.utah_text{
+    margin: 0;
+}
+
+.river_one{
+    width: 10%;
+    align-items: right;
+}
+
+.river_two{
+    width: 10%;
+    align-items: right;
+}
+
+.river_three{
+    width: 10%;
+    align-items: right;
+}
+
+.river_four{
+    width: 10%;
+    align-items: right;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -290,6 +331,7 @@ main section img {
         width: 80%;
         display: block;
         margin: 0 auto;
+
     }
     footer {
         margin-top: 25px;
