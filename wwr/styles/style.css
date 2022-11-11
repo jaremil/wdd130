@@ -145,7 +145,6 @@ h4{
 
 #logo_link{
     padding-top: 5px;
-    justify-self: 5px;
     align-self: center;
 }
 
@@ -256,43 +255,21 @@ main section img {
 
 .river-grid{
     display: grid;
-    grid-template-columns: repeat(10,1fr);
+    grid-template-columns: 3fr 1fr;
 }
 
-.river_title{
-
+.text{
+    margin: 10%;
 }
 
-.arizona_text {
-    margin: 0;
+.river-image {
+    width: 150px;
+    margin: 10%;
 }
 
-.idaho_text{
-    margin: 0;
-}
-
-.utah_text{
-    margin: 0;
-}
-
-.river_one{
-    width: 10%;
-    align-items: right;
-}
-
-.river_two{
-    width: 10%;
-    align-items: right;
-}
-
-.river_three{
-    width: 10%;
-    align-items: right;
-}
-
-.river_four{
-    width: 10%;
-    align-items: right;
+.header{
+    margin: 50px;
+    align-items: center;
 }
 
 @media screen and (max-width: 900px) {
