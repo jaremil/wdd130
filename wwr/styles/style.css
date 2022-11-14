@@ -329,11 +329,15 @@ form {
     left: 0;
     right: 0;
     padding: .5em;
-    /* make this element invisible until we are ready for it */
     display: none;      
 }
 .moveDown {
     margin-top: 3em;
+}
+
+.contact_box {
+    margin-top: 15%;
+
 }
 
 @media screen and (max-width: 900px) {
