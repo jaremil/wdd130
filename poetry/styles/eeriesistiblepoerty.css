@@ -1,0 +1,15 @@
+.icons{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo{
+ width: auto;
+}
+
+.poems{
+    width: 35%;
+}
+
+.social{
+    width: 100px;
+}
