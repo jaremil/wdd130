@@ -1,0 +1,16 @@
+.logo {
+  width: auto;
+}
+
+.icons {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.poems {
+  width: 100px;
+}
+
+.social {
+  width: auto;
+}

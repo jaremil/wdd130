@@ -1,15 +1,15 @@
-.icons{
-    grid-template-columns: 1fr 1fr 1fr;
+.logo {
+  width: auto;
 }
 
-.logo{
- width: auto;
+.icons {
+  width: auto;
 }
 
-.poems{
-    width: 35%;
+.poems {
+  width: auto;
 }
 
-.social{
-    width: 100px;
+.social {
+  width: auto;
 }
