@@ -1,0 +1,50 @@
+.content {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.blockone {
+  width: 50%;
+  margin-right: auto;
+}
+
+.blocktwo {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blockthree {
+  width: 50%;
+  margin-left: auto;
+}
+
+.blockfour {
+  width: 50%;
+  margin: 0 auto;
+}
+
+p:nth-of-type(1) {
+  text-align: left;
+}
+
+p:nth-of-type(2) {
+  text-align: center;
+}
+
+p:nth-of-type(3) {
+  text-align: right;
+}
+
+.blockfour p:nth-of-type(1) {
+  text-align: right;
+}
+
+.blockfour p:nth-of-type(2) {
+  text-align: center;
+}
+
+.blockfour p:nth-of-type(3) {
+  text-align: left;
+}

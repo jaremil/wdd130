@@ -1,16 +1,79 @@
-.logo {
-  width: auto;
+header{
+  grid-template-columns: 100px 100px 100-x;
+  background-color: #DED6FC;
+  width: 100%;
 }
 
-.icons {
+nav{
+  display: flex;
+  align-items: center;
+  background-color: #0D6244;
+
+}
+
+nav a{
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  color: #DED6FC;
+}
+
+nav a:hover{
+  background-color: #A489FB;
+}
+
+nav :hover{
+  background-color: #A489FB;
+}
+
+.welcome{
+background-color: #0D6244;
+color: #DED6FC;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+padding: 15px 30px;
+margin-top: 50px;
+border-radius: 5px;
+width: 100px;
+}
+
+body{
+  margin: 0%;
+}
+
+.icons_grid{
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+ 
 }
 
-.poems {
-  width: 100px;
+.icon_row{
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 100%;
 }
 
-.social {
-  width: auto;
+.icon{
+  width: 20%;
+}
+
+.icon_titles{
+ width: 20%;
+ text-decoration: none;
+
+}
+
+.social{
+  width: 5%;
+}
+
+footer{
+  text-decoration: none;
+  color: #A489FB;
+  background-color:  #DED6FC;
+  padding: 25px 50px;
+  margin-top: 5%; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
