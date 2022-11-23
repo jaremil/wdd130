@@ -1,78 +1,115 @@
-header{
-  grid-template-columns: 100px 100px 100-x;
-  background-color: #DED6FC;
+header {
+  display: grid;
+  background-color: #ded6fc;
   width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-nav{
-  display: flex;
-  align-items: center;
-  background-color: #0D6244;
-
-}
-
-nav a{
+nav a {
   text-align: center;
   padding: 25px;
   text-decoration: none;
-  color: #DED6FC;
+  background-color: #0d6244;
+  color: #ded6fc;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+  width: 100px;
 }
 
-nav a:hover{
-  background-color: #A489FB;
+nav a:hover {
+  background-color: #a489fb;
+  color: #ded6fc;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+  width: 100px;
 }
 
-nav :hover{
-  background-color: #A489FB;
+nav :hover {
+  background-color: #a489fb;
 }
 
-.welcome{
-background-color: #0D6244;
-color: #DED6FC;
-font-size: 18px;
-font-family: 'Open Sans', sans-serif;
-padding: 15px 30px;
-margin-top: 50px;
-border-radius: 5px;
-width: 100px;
+a {
+  text-decoration: none;
 }
 
-body{
+.navbars{
+  margin-top: 250px;
+  margin-left: 30%;
+}
+
+.welcome {
+  background-color: #0d6244;
+  color: #ded6fc;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  margin-left: 10%;
+  text-align: center;
+  border-radius: 5px;
+  width: 75%;
+}
+
+body {
   margin: 0%;
 }
 
-.icons_grid{
-  display: grid;
+.icons_grid {
   grid-template-columns: 1fr 1fr 1fr;
- 
-}
-
-.icon_row{
+  display: flex;
   margin-left: 10%;
   margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.icon_row {
   width: 100%;
 }
 
-.icon{
-  width: 20%;
+.icon {
+  width: 40%;
 }
 
-.icon_titles{
- width: 20%;
- text-decoration: none;
-
+.icon:hover {
+  content: url(image/ghostlo.png);
 }
 
-.social{
-  width: 5%;
-}
-
-footer{
+.icon_titles {
+  color: #FACEB1;
   text-decoration: none;
-  color: #A489FB;
-  background-color:  #DED6FC;
+  font-family: "Open Sans", sans-serif;
+  width: 30%;
+  height: 10%;
+  text-align: center;
+}
+
+.icon_titles:hover{
+  text-decoration: none;
+  color: #a489fb;
+  align-items: center;
+}
+
+.site-plan{
+  text-decoration: none;
+  color: #a489fb;
+  font-family: "Open Sans", sans-serif;
+}
+
+.social {
+  width: 50px;
+}
+
+footer {
+  color: #a489fb;
+  font-family: "Open Sans", sans-serif;
+  background-color: #ded6fc;
   padding: 25px 50px;
-  margin-top: 5%; 
   display: flex;
   justify-content: space-around;
   align-items: center;
