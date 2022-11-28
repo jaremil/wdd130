@@ -46,9 +46,8 @@ a {
 }
 
 .welcome {
-  background-color: #0d6244;
   color: #ded6fc;
-  font-size: 18px;
+  font-size: 60px;
   font-family: "Open Sans", sans-serif;
   padding: 15px 30px;
   margin-top: 50px;
@@ -141,6 +140,18 @@ footer {
 }
 
 /* poetry pages */
+
+.pp_icon{
+  width: 15%;
+  margin-top: 10%;
+  margin-left: 10%; 
+}
+
+.pp_text{
+  margin: 10%;
+}
+
+/* button */
 
 .pn_button {
   text-decoration: none;
