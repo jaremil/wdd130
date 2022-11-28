@@ -139,3 +139,56 @@ footer {
   margin-right: 5%;
   font-family: "Open Sans", sans-serif;
 }
+
+/* poetry pages */
+
+.pn_button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  color: #0d6244;
+  background-color: #DED6FC;
+  border-radius: 50%;
+}
+
+.pn_button:hover {
+  background-color: #FACEB1;
+  color: #FF9168;
+}
+
+.previous {
+  color: #0d6244;
+  background-color: #DED6FC;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  color: #0d6244;
+  background-color: #DED6FC;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 5%;
+  margin-left: 45%;
+}
+
+.previous:hover{
+  background-color: #FACEB1;
+  color: #FF9168;
+}
+
+.next {
+  color: #0d6244;
+  background-color: #DED6FC;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  color: #0d6244;
+  background-color: #DED6FC;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 5%;
+}
+
+.next:hover{
+  background-color: #FACEB1;
+  color: #FF9168;
+}
