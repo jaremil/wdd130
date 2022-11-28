@@ -1,3 +1,5 @@
+/*main and home page*/
+
 header {
   display: grid;
   background-color: #ded6fc;
@@ -38,7 +40,7 @@ a {
   text-decoration: none;
 }
 
-.navbars{
+.navbars {
   margin-top: 250px;
   margin-left: 30%;
 }
@@ -76,12 +78,8 @@ body {
   width: 40%;
 }
 
-.icon:hover {
-  content: url(image/ghostlo.png);
-}
-
 .icon_titles {
-  color: #FACEB1;
+  color: #faceb1;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
   width: 30%;
@@ -89,13 +87,13 @@ body {
   text-align: center;
 }
 
-.icon_titles:hover{
+.icon_titles:hover {
   text-decoration: none;
   color: #a489fb;
   align-items: center;
 }
 
-.site-plan{
+.site-plan {
   text-decoration: none;
   color: #a489fb;
   font-family: "Open Sans", sans-serif;
@@ -113,4 +111,31 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+/* description page */
+
+.bats {
+  width: 200px;
+  margin-left: 10%;
+}
+
+.description_grid{
+  display: grid;
+  grid-template-columns: 10% 80%;
+}
+
+.wd_header{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  font-family: "Volkhov", serif;
+  font-size: 300%;
+  color: #0D6244;
+}
+
+.wd_text{
+  margin-left: 10%;
+  margin-right: 5%;
+  font-family: "Open Sans", sans-serif;
 }
