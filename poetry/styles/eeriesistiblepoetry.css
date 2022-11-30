@@ -73,10 +73,6 @@ body {
   width: 100%;
 }
 
-.icon {
-  width: 40%;
-}
-
 .icon_titles {
   color: #faceb1;
   text-decoration: none;
@@ -91,6 +87,78 @@ body {
   color: #a489fb;
   align-items: center;
 }
+
+.witchshat_icon{
+  width: 40%
+}
+
+/* .witchshat_icon:hover{
+  background: url('hatp.png');
+} */
+
+.raven_icon{
+  width: 40%;
+}
+
+/* .raven_icon:hover{
+
+} */
+
+.grave_icon{
+  width: 40%;
+}
+
+/* .grave_icon:hover{
+
+} */
+
+.hand_icon{
+  width: 40%;
+}
+
+/* .hand_icon:hover{
+
+} */
+
+.skull_icon{
+  width: 40%;
+}
+
+/* .skull_icon:hover{
+
+} */
+
+.house_icon{
+  width: 40%;
+}
+/* 
+.house_icon:hover{
+
+} */
+
+.ghost_icon{
+  width: 40%;
+}
+
+/* .ghost_icon:hover{
+
+} */
+
+.wolf_icon{
+  width: 40%;
+} 
+/* 
+.wold_icon:hover{
+
+} */
+
+.pumpkin_icon{
+  width: 40%;
+}
+
+/* .pumpkin_icon:hover{
+
+} */
 
 .site-plan {
   text-decoration: none;
@@ -142,9 +210,9 @@ footer {
 /* poetry pages */
 
 .pp_icon{
-  width: 15%;
-  margin-top: 10%;
+  width: 100px;
   margin-left: 10%; 
+  float: left;
 }
 
 .pp_text{
@@ -156,7 +224,6 @@ footer {
 .pn_button {
   text-decoration: none;
   display: inline-block;
-  padding: 8px 16px;
   color: #0d6244;
   background-color: #DED6FC;
   border-radius: 50%;
@@ -176,9 +243,7 @@ footer {
   color: #0d6244;
   background-color: #DED6FC;
   border-radius: 50%;
-  margin-top: 20px;
-  margin-bottom: 5%;
-  margin-left: 45%;
+ align-items: center;
 }
 
 .previous:hover{
@@ -195,10 +260,13 @@ footer {
   color: #0d6244;
   background-color: #DED6FC;
   border-radius: 50%;
-  margin-top: 20px;
-  margin-bottom: 5%;
 }
 
+.thebuttons{
+  width: 200px;
+  margin: 20px auto 5% auto;
+  text-align: center;
+}
 .next:hover{
   background-color: #FACEB1;
   color: #FF9168;
