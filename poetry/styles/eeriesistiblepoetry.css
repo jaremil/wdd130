@@ -63,7 +63,7 @@ body {
 
 .icons_grid {
   grid-template-columns: 1fr 1fr 1fr;
-  display: flex;
+  display: grid;
   margin-left: 10%;
   margin-top: 5%;
   margin-bottom: 10%;
@@ -80,6 +80,9 @@ body {
   width: 30%;
   height: 10%;
   text-align: center;
+  margin-left: 50px;
+  margin-top: 250px;
+  margin-bottom: 50px;
 }
 
 .icon_titles:hover {
@@ -87,78 +90,6 @@ body {
   color: #a489fb;
   align-items: center;
 }
-
-.witchshat_icon{
-  width: 40%
-}
-
-/* .witchshat_icon:hover{
-  background: url('hatp.png');
-} */
-
-.raven_icon{
-  width: 40%;
-}
-
-/* .raven_icon:hover{
-
-} */
-
-.grave_icon{
-  width: 40%;
-}
-
-/* .grave_icon:hover{
-
-} */
-
-.hand_icon{
-  width: 40%;
-}
-
-/* .hand_icon:hover{
-
-} */
-
-.skull_icon{
-  width: 40%;
-}
-
-/* .skull_icon:hover{
-
-} */
-
-.house_icon{
-  width: 40%;
-}
-/* 
-.house_icon:hover{
-
-} */
-
-.ghost_icon{
-  width: 40%;
-}
-
-/* .ghost_icon:hover{
-
-} */
-
-.wolf_icon{
-  width: 40%;
-} 
-/* 
-.wold_icon:hover{
-
-} */
-
-.pumpkin_icon{
-  width: 40%;
-}
-
-/* .pumpkin_icon:hover{
-
-} */
 
 .site-plan {
   text-decoration: none;
@@ -180,6 +111,98 @@ footer {
   align-items: center;
 }
 
+/* icons images */
+
+.witchshat_icon {
+  background-image: url("../images/hatlo.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.witchshat_icon:hover {
+  background-image: url("../images/hatp.png");
+}
+
+.raven_icon {
+  background-image: url("../images/ravenlo.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.raven_icon:hover {
+  background-image: url("../images/ravenp.png");
+}
+
+.grave_icon {
+  background-image: url("../images/gravelo.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.grave_icon:hover {
+  background-image: url("../images/gravep.png");
+}
+
+.hand_icon {
+  background-image: url("../images/handlo.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.hand_icon:hover {
+  background-image: url("../images/handp.png");
+}
+
+.skull_icon {
+  background-image: url("../images/skulllo.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.skull_icon:hover {
+  background-image: url("../images/skullp.png");
+}
+
+.house_icon {
+  background-image: url("../images/houselo.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.house_icon:hover {
+  background-image: url("../images/housep.png");
+}
+
+.ghost_icon {
+  background-image: url("../images/ghostlo.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.ghost_icon:hover {
+  background-image: url("../images/ghostp.png");
+}
+
+.wolf_icon {
+  background-image: url("../images/wolflo.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.wolf_icon:hover {
+  background-image: url("../images/wolfp.png");
+}
+
+.pumpkin_icon {
+  background-image: url("../images/pumpkinlo.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.pumpkin_icon:hover {
+  background-image: url("../images/pumpkinp.png");
+}
+
 /* description page */
 
 .bats {
@@ -187,21 +210,21 @@ footer {
   margin-left: 10%;
 }
 
-.description_grid{
+.description_grid {
   display: grid;
   grid-template-columns: 10% 80%;
 }
 
-.wd_header{
+.wd_header {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 10%;
   font-family: "Volkhov", serif;
   font-size: 300%;
-  color: #0D6244;
+  color: #0d6244;
 }
 
-.wd_text{
+.wd_text {
   margin-left: 10%;
   margin-right: 5%;
   font-family: "Open Sans", sans-serif;
@@ -209,13 +232,13 @@ footer {
 
 /* poetry pages */
 
-.pp_icon{
+.pp_icon {
   width: 100px;
-  margin-left: 10%; 
+  margin-left: 10%;
   float: left;
 }
 
-.pp_text{
+.pp_text {
   margin: 10%;
 }
 
@@ -225,49 +248,49 @@ footer {
   text-decoration: none;
   display: inline-block;
   color: #0d6244;
-  background-color: #DED6FC;
+  background-color: #ded6fc;
   border-radius: 50%;
 }
 
 .pn_button:hover {
-  background-color: #FACEB1;
-  color: #FF9168;
+  background-color: #faceb1;
+  color: #ff9168;
 }
 
 .previous {
   color: #0d6244;
-  background-color: #DED6FC;
+  background-color: #ded6fc;
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
   color: #0d6244;
-  background-color: #DED6FC;
+  background-color: #ded6fc;
   border-radius: 50%;
- align-items: center;
+  align-items: center;
 }
 
-.previous:hover{
-  background-color: #FACEB1;
-  color: #FF9168;
+.previous:hover {
+  background-color: #faceb1;
+  color: #ff9168;
 }
 
 .next {
   color: #0d6244;
-  background-color: #DED6FC;
+  background-color: #ded6fc;
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
   color: #0d6244;
-  background-color: #DED6FC;
+  background-color: #ded6fc;
   border-radius: 50%;
 }
 
-.thebuttons{
+.thebuttons {
   width: 200px;
   margin: 20px auto 5% auto;
   text-align: center;
 }
-.next:hover{
-  background-color: #FACEB1;
-  color: #FF9168;
+.next:hover {
+  background-color: #faceb1;
+  color: #ff9168;
 }
