@@ -14,7 +14,7 @@ nav a {
   background-color: #0d6244;
   color: #ded6fc;
   font-size: 18px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 15px 30px;
   margin-top: 50px;
   border-radius: 5px;
@@ -25,7 +25,7 @@ nav a:hover {
   background-color: #a489fb;
   color: #ded6fc;
   font-size: 18px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 15px 30px;
   margin-top: 50px;
   border-radius: 5px;
@@ -38,6 +38,11 @@ nav :hover {
 
 a {
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbars {
@@ -48,7 +53,7 @@ a {
 .welcome {
   color: #ded6fc;
   font-size: 60px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 15px 30px;
   margin-top: 50px;
   margin-left: 10%;
@@ -76,11 +81,12 @@ body {
 .icon_titles {
   color: #faceb1;
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
-  width: 30%;
+  font-family: 'Volkhov', serif;
+  font-size: 25px;
+  width: 40%;
   height: 10%;
   text-align: center;
-  margin-left: 50px;
+  margin-left: 30px;
   margin-top: 250px;
   margin-bottom: 50px;
 }
@@ -94,7 +100,7 @@ body {
 .site-plan {
   text-decoration: none;
   color: #a489fb;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .social {
@@ -103,7 +109,7 @@ body {
 
 footer {
   color: #a489fb;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: #ded6fc;
   padding: 25px 50px;
   display: flex;
@@ -207,7 +213,7 @@ footer {
 
 .bats {
   width: 200px;
-  margin-left: 10%;
+  margin-left: 20%;
 }
 
 .description_grid {
@@ -219,7 +225,7 @@ footer {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 10%;
-  font-family: "Volkhov", serif;
+  font-family: 'Volkhov', serif;
   font-size: 300%;
   color: #0d6244;
 }
@@ -227,19 +233,32 @@ footer {
 .wd_text {
   margin-left: 10%;
   margin-right: 5%;
-  font-family: "Open Sans", sans-serif;
+  margin-bottom: 5%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 }
 
 /* poetry pages */
 
 .pp_icon {
-  width: 100px;
+  width: 200px;
   margin-left: 10%;
   float: left;
 }
 
 .pp_text {
   margin: 10%;
+}
+
+.poemtitle {
+  color: #ff9168;
+  font-family: 'Volkhov', serif;
+  font-size: 300%;
+}
+
+.poem {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 }
 
 /* button */
